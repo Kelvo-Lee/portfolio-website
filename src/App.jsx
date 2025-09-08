@@ -13,7 +13,7 @@ import CaseStudy from './components/CaseStudy'; // <-- We will create this next
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/portfolio-website">
       <Container fluid className="p-0">
         <Routes>
           {/* Main Homepage Route */}

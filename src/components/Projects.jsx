@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 // Import all your project images
 import projectImage1 from '../assets/project1.PNG';
 import projectImage2 from '../assets/project2.jpeg';
-import projectImage3 from '../assets/project3.png';
+import projectImage3 from '../assets/project3.pdf';
 import projectImage4 from '../assets/project4.png';
 import projectImage5 from '../assets/project5.png';
 import projectImage6 from '../assets/project6.png';
