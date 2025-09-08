@@ -77,7 +77,7 @@ const projects = [
   {
     id: '9',
     title: "Yummy",
-    description: "A website to order for all types of food",
+    description: "A website to order for all types of food from local cuisines to international dishes.",
     image: projectImage9,
     tags: ['Javascript', 'Django', 'CSS', 'API', 'Bootstrap']
   }

@@ -177,45 +177,45 @@ const CaseStudy = () => {
       </>
     );
   } else if (project.id === '7') {
-    caseStudyContent = (
-      <>
-        <h3 className="fw-bold mb-3">Project Overview</h3>
-        <p>I designed and developed a mobile e-commerce application to provide a seamless and intuitive shopping experience. The app needed a clean interface, robust product management, and a secure, straightforward checkout process to drive sales and customer engagement.</p>
-        <h4 className="fw-bold mt-4">The Challenge</h4>
-        <p>The core challenge was to simplify the mobile shopping journey. I had to create a user flow that made browsing products, adding items to a cart, and completing a purchase feel effortless on a small screen, all while ensuring user data and payment information remained secure.</p>
-        <h4 className="fw-bold mt-4">My Process & Solution</h4>
-        <p>I used **React Native** to build a cross-platform mobile app. For the backend, I implemented a **RESTful API** to handle user accounts, product data, and order processing. The solution included intuitive product search and filtering, a dynamic shopping cart, and a secure, multi-step checkout with form validation to minimize user friction.</p>
-        <h4 className="fw-bold mt-4">The Result & Impact</h4>
-        <p>The final e-commerce app provides a smooth and reliable shopping experience. It successfully streamlines the purchase process and creates an engaging user interface that encourages repeat customers. This project demonstrates my ability to build a full-stack, mobile-first application from concept to execution.</p>
-      </>
-    );
-  } else if (project.id === '8') {
-    caseStudyContent = (
-      <>
-        <h3 className="fw-bold mb-3">Project Overview</h3>
-        <p>I built an interactive web dashboard designed to visualize and analyze complex datasets. The goal was to transform raw data into a set of actionable insights, providing users with a clear, at-a-glance understanding of key performance metrics through charts, graphs, and filters.</p>
-        <h4 className="fw-bold mt-4">The Challenge</h4>
-        <p>The main challenge was handling a large volume of data and presenting it in a way that was both easy to understand and highly customizable. I needed to create a system that could fetch and render data quickly and allow users to filter, sort, and interact with the visualizations without performance lag.</p>
-        <h4 className="fw-bold mt-4">My Process & Solution</h4>
-        <p>I used **React** and a **data visualization library** like Chart.js or D3.js. The solution involved implementing an efficient data fetching strategy to load only the necessary data. I designed the dashboard with modular components for each chart, which can be dynamically updated based on user interactions.</p>
-        <h4 className="fw-bold mt-4">The Result & Impact</h4>
-        <p>The dashboard successfully provides a powerful tool for data analysis. The clean design and interactive features make complex data accessible to a broad audience, helping users identify trends and make data-driven decisions. This project showcases my skills in data handling, front-end optimization, and creating intuitive user interfaces for analytical tools.</p>
-      </>
-    );
-  } else if (project.id === '9') {
-    caseStudyContent = (
-      <>
-        <h3 className="fw-bold mb-3">Project Overview</h3>
-        <p>I developed a personal blog platform with a content management system (CMS) to make it easy to write and publish articles. The goal was to create a clean, minimalist space for sharing content while building a functional backend for managing posts, categories, and user comments.</p>
-        <h4 className="fw-bold mt-4">The Challenge</h4>
-        <p>The main challenge was building a seamless content creation workflow. I needed a secure system for an admin to create, edit, and publish new posts, along with a dynamic front end that would render the content beautifully and responsively on any device.</p>
-        <h4 className="fw-bold mt-4">My Process & Solution</h4>
-        <p>I used a **full-stack approach** with **React** for the front end and a **headless CMS** or custom **Node.js** backend. The solution included a rich-text editor for writing posts and a secure API for managing all content. The front end was designed to be fast and SEO-friendly, with dynamic routing for individual blog posts.</p>
-        <h4 className="fw-bold mt-4">The Result & Impact</h4>
-        <p>The blog platform provides a simple and effective way to manage and share content. It has successfully created a clean and professional online presence that is both easy to use for the administrator and pleasant to read for visitors. The project demonstrates my ability to build and deploy a content-driven application.</p>
-      </>
-    );
-  } else {
+  caseStudyContent = (
+    <>
+      <h3 className="fw-bold mb-3">Project Overview</h3>
+      <p>I designed and developed a website to empower women across diverse industries. The platform provides a supportive community, valuable resources, and opportunities for networking and career growth, with the goal of fostering a strong, interconnected network of professional women.</p>
+      <h4 className="fw-bold mt-4">The Challenge</h4>
+      <p>The core challenge was to create a digital space that felt both professional and welcoming. I needed to build a secure platform for resource sharing while ensuring an intuitive user experience. The design had to be elegant and inspiring, reflecting the website's mission to uplift and support its members.</p>
+      <h4 className="fw-bold mt-4">My Process & Solution</h4>
+      <p>I used **React** to build a dynamic and responsive front end. The solution included a dedicated resources section, a community forum for members to connect, and a user-friendly dashboard for managing profiles. The platform was designed to be easily scalable, allowing for future expansion with new features and content.</p>
+      <h4 className="fw-bold mt-4">The Result & Impact</h4>
+      <p>The final website provides a powerful tool for empowering women professionally. It has successfully created a digital hub that inspires growth and collaboration. This project demonstrates my ability to build a mission-driven platform from concept to a fully functional and secure website.</p>
+    </>
+  );
+} else if (project.id === '8') {
+  caseStudyContent = (
+    <>
+      <h3 className="fw-bold mb-3">Project Overview</h3>
+      <p>I built an e-commerce website to serve as a mini-store for purchasing phones and accessories. The goal was to create a clean, modern shopping experience with a focus on a straightforward product catalog and a secure, efficient checkout process to drive sales.</p>
+      <h4 className="fw-bold mt-4">The Challenge</h4>
+      <p>The main challenge was simplifying the online shopping journey. I needed to design an intuitive user flow that made it easy for customers to browse products, add items to a cart, and complete a purchase. The website had to be fast and responsive, providing a smooth experience on both desktop and mobile devices.</p>
+      <h4 className="fw-bold mt-4">My Process & Solution</h4>
+      <p>I used **React** to build the user interface and integrated a **RESTful API** for managing product inventory and handling transactions. The solution included a dynamic product display with filters, a persistent shopping cart, and a secure checkout process with form validation to ensure customer data is protected.</p>
+      <h4 className="fw-bold mt-4">The Result & Impact</h4>
+      <p>The mini-store successfully provides a seamless and reliable shopping experience. It showcases my ability to build a full-stack e-commerce solution from scratch, with a focus on user experience, security, and performance. This project demonstrates my skills in creating a functional, sales-driven web application.</p>
+    </>
+  );
+} else if (project.id === '9') {
+  caseStudyContent = (
+    <>
+      <h3 className="fw-bold mb-3">Project Overview</h3>
+      <p>I developed a website to order all types of food, from local cuisines to international dishes. The platform provides users with a simple way to browse menus, customize orders, and manage the delivery process, creating a seamless and convenient dining experience.</p>
+      <h4 className="fw-bold mt-4">The Challenge</h4>
+      <p>The core challenge was to create an intuitive and visually appealing menu system that could handle a wide variety of food options and complex order customizations. I needed to design a user flow that made placing an order feel effortless while providing clear updates on the order status from preparation to delivery.</p>
+      <h4 className="fw-bold mt-4">My Process & Solution</h4>
+      <p>I used **React** for the front end and integrated a **Node.js** or **headless CMS** for managing restaurant data and order processing. The solution included a dynamic menu interface, a customizable order builder, and a real-time order tracking feature to keep users informed. The design was focused on high-quality food visuals and an easy-to-navigate interface.</p>
+      <h4 className="fw-bold mt-4">The Result & Impact</h4>
+      <p>The food ordering website successfully provides a convenient and enjoyable user experience. It demonstrates my ability to build a robust, content-driven application with a focus on user convenience and real-time functionality. The project showcases my skills in front-end design, API integration, and creating intuitive user workflows.</p>
+    </>
+  );
+} else {
     caseStudyContent = (
       <>
         <h3 className="fw-bold mb-3">Project Overview</h3>
