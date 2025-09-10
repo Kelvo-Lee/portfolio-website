@@ -48,7 +48,7 @@ const Hero = () => {
                 <a href="https://github.com/Kelvo-Lee" target="_blank" rel="noopener noreferrer" className="text-dark me-3 fs-3">
                   <FaGithub />
                 </a>
-                <a href="https://behance.net/kelvin-akharamen" target="_blank" rel="noopener noreferrer" className="text-dark me-3 fs-3">
+                <a href="https://www.behance.net/akharamenkelvin" target="_blank" rel="noopener noreferrer" className="text-dark me-3 fs-3">
                   <FaBehance />
                 </a>
                 <a href="https://www.instagram.com/Kelvo_lee" target="_blank" rel="noopener noreferrer" className="text-dark me-3 fs-3">
