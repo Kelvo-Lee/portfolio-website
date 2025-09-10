@@ -27,7 +27,7 @@ const projects = [
   },
   {
     id: '2',
-    title: "Logistic landing page",
+    title: "Landing Page For Logistic",
     description: "Landing page to showcase a logistic website",
     image: projectImage2,
     tags: ['HTML', 'CSS']
@@ -41,38 +41,38 @@ const projects = [
   },
   {
     id: '4',
-    title: "Landing page website",
+    title: "Landing Page For Background Checks",
     description: "A site to run background checks, verification and On-ground investigations",
     image: projectImage4,
     tags: ['React', 'Bootstrap', 'HTML', 'CSS']
   },
   {
     id: '5',
-    title: "A Real estate application",
+    title: "A Real Estate Application",
     description: "A full-stack Real estate platform built to purchase and manage properties.",
     image: projectImage5,
     tags: ['React', 'Bootstrap', 'Node.JS', 'CSS', 'API', 'MYSQL']
   },
   {
     id: '6',
-    title: "A crypto website",
+    title: "A Crypto Website",
     description: "A Functional crypto website that showcase Real-time data market, wallet connection, Analytics dashboard and portfolio simulation",
     image: projectImage6,
     tags: ['React', 'Bootstrap', 'Node.JS', 'CSS', 'API']
   },
   {
     id: '7',
-    title: "Woman empowering website",
+    title: "SELF",
     description: "A website to empower women accross diverse industries with opportunities for growth and success.",
     image: projectImage7,
     tags: ['React', 'Bootstrap', 'CSS']
   },
   {
     id: '8',
-    title: "A ministore",
+    title: "A Ministore",
     description: "A website to purchase phones and accessories.",
     image: projectImage8,
-    tags: ['Javascript', 'Bootstrap', 'CSS', 'API']
+    tags: ['Javascript', 'Bootstrap', 'CSS', 'API','Django']
   },
   {
     id: '9',

@@ -4,11 +4,11 @@ import { motion } from 'framer-motion';
 
 const Skills = () => {
   const skills = {
-    frontend: ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'React', 'Next.js', 'Bootstrap', 'Tailwind CSS', 'jQuery'],
+    frontend: ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'React', 'Next.js', 'Bootstrap', 'Wordpress', 'Tailwind CSS', 'jQuery'],
     backend: ['Node.js', 'PHP', 'Python', 'Django'],
     databases: ['MySQL', 'MongoDB'],
     uiux: ['Figma', 'User Research', 'Prototyping'],
-    tools: ['PyCharm', 'GitHub', 'Git', 'VS Code']
+    tools: ['PyCharm', 'GitHub', 'Git', 'VS Code', 'Photoshop','Illustrator']
   };
 
   const skillsVariants = {

@@ -27,7 +27,7 @@ const projects = [
   },
   {
     id: '2',
-    title: "Logistic landing page",
+    title: "Landing Page For Logistics",
     description: "Landing page to showcase a logistic website",
     image: projectImage2,
     tags: ['HTML', 'CSS']
@@ -41,45 +41,45 @@ const projects = [
   },
   {
     id: '4',
-    title: "Landing page website",
+    title: "Landing Page For Background Checks",
     description: "A site to run background checks, verification and On-ground investigations",
     image: projectImage4,
     tags: ['React', 'Bootstrap', 'HTML', 'CSS']
   },
   {
     id: '5',
-    title: "A Real estate application",
+    title: "A Real Estate Application",
     description: "A full-stack Real estate platform built to purchase and manage properties.",
     image: projectImage5,
     tags: ['React', 'Bootstrap', 'Node.JS', 'CSS', 'API', 'MYSQL']
   },
   {
     id: '6',
-    title: "A crypto website",
+    title: "A Crypto Website",
     description: "A Functional crypto website that showcase Real-time data market, wallet connection, Analytics dashboard and portfolio simulation",
     image: projectImage6,
     tags: ['React', 'Bootstrap', 'Node.JS', 'CSS', 'API']
   },
   {
     id: '7',
-    title: "E-commerce Mobile App",
-    description: "A mobile e-commerce application with a secure checkout process.",
+    title: "SELF",
+    description: "A website to empower women accross diverse industries with opportunities for growth and success.",
     image: projectImage7,
-    tags: ['React Native', 'Node.JS', 'API']
+    tags: ['React', 'Bootstrap', 'CSS']
   },
   {
     id: '8',
-    title: "Interactive Data Dashboard",
-    description: "A web dashboard for visualizing and analyzing complex datasets.",
+    title: "A Ministore",
+    description: "A website to purchase phones and accessories.",
     image: projectImage8,
-    tags: ['React', 'API', 'Data Visualization', 'D3.js']
+    tags: ['Javascript', 'Bootstrap', 'CSS', 'API','Django']
   },
   {
     id: '9',
-    title: "Personal Blog/CMS",
-    description: "A full-stack personal blog platform with a content management system.",
+    title: "Yummy",
+    description: "A website to order for all types of food from local cuisines to international dishes.",
     image: projectImage9,
-    tags: ['React', 'Node.JS', 'MongoDB', 'CMS']
+    tags: ['Javascript', 'Django', 'CSS', 'API', 'Bootstrap']
   }
 ];
 
