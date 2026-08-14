@@ -1,5 +1,4 @@
 // src/components/Contact.jsx
-
 import React from 'react';
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 import { FaLinkedin, FaGithub, FaBehance, FaInstagram, FaFacebook } from 'react-icons/fa';
@@ -33,7 +32,7 @@ const Contact = () => {
                 <Form.Label>Email address</Form.Label>
                 <Form.Control type="email" name="email" required className="bg-dark text-light border-0" />
               </Form.Group>
-              
+
               <Form.Group className="mb-3" controlId="formPhone">
                 <Form.Label>Phone Number</Form.Label>
                 <Form.Control type="tel" name="phone" className="bg-dark text-light border-0" />
@@ -50,7 +49,7 @@ const Contact = () => {
                 </Button>
               </div>
             </Form>
-            
+
             <div className="mt-4">
               <h5 className="mb-3">Connect with me</h5>
               <a href="https://www.linkedin.com/in/akharamen-kelvin-ab2851350/" target="_blank" rel="noopener noreferrer" className="text-dark me-3 fs-3">

@@ -4,11 +4,11 @@ import { motion } from 'framer-motion';
 
 const Skills = () => {
   const skills = {
-    frontend: ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'React', 'Next.js', 'Bootstrap', 'Wordpress', 'Tailwind CSS', 'jQuery'],
-    backend: ['Node.js', 'PHP', 'Python', 'Django'],
-    databases: ['MySQL', 'MongoDB'],
+    frontend: ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'React', 'Angular', 'Next.js', 'Bootstrap', 'Wordpress', 'Tailwind CSS', 'jQuery'],
+    backend: ['Node.js', 'PHP', 'Python', 'Django', 'Laravel'],
+    databases: ['MySQL', 'MongoDB', 'Postgre', 'Convex'],
     uiux: ['Figma', 'User Research', 'Prototyping'],
-    tools: ['PyCharm', 'GitHub', 'Git', 'VS Code', 'Photoshop','Illustrator']
+    tools: ['PyCharm', 'GitHub', 'Git', 'VS Code', 'Photoshop', 'Illustrator', 'Postman']
   };
 
   const skillsVariants = {
@@ -20,7 +20,7 @@ const Skills = () => {
   const getRandomColor = () => badgeColors[Math.floor(Math.random() * badgeColors.length)];
 
   return (
-    <motion.div 
+    <motion.div
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true }}
@@ -28,7 +28,7 @@ const Skills = () => {
     >
       <Container className="my-5 py-5 text-center">
         <h2 className="display-5 fw-bold mb-5">Skills & Expertise</h2>
-        
+
         <Row className="justify-content-center">
           {Object.entries(skills).map(([category, list]) => (
             <Col xs={12} md={6} lg={4} className="mb-4" key={category}>
@@ -37,10 +37,10 @@ const Skills = () => {
                   <h4 className="card-title text-capitalize mb-4 fw-bold text-primary">{category}</h4>
                   <div className="d-flex flex-wrap justify-content-center">
                     {list.map((skill, index) => (
-                      <Badge 
-                        key={index} 
-                        bg={getRandomColor()} 
-                        pill 
+                      <Badge
+                        key={index}
+                        bg={getRandomColor()}
+                        pill
                         className="m-2 px-3 py-2 fw-normal fs-6 text-uppercase"
                       >
                         {skill}

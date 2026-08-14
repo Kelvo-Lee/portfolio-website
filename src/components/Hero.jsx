@@ -11,7 +11,7 @@ const Hero = () => {
     visible: {
       opacity: 1,
       transition: {
-        delay: 0.5, 
+        delay: 0.5,
         duration: 1.5,
       }
     }
@@ -36,7 +36,7 @@ const Hero = () => {
           <Col xs={12} lg={8}>
             <h1 className="display-4 fw-bold mb-3">Hi, I'm Kelvin</h1>
             <p className="lead fs-5 mb-4">
-              I'm a Software Engineer and Product Designer with a B.S. in Computer Science. I create clean, beautiful websites and web applications by blending my technical expertise with a strong passion for user-centered design. I'm driven by a positive outlook and a commitment to solving complex challenges.
+              I'm a Software Developer and Product Designer with a B.S. in Computer Science. I love turning complex problems into simple, beautiful, and high-performing digital products.
             </p>
 
             <div className="d-flex flex-column flex-md-row justify-content-center justify-content-lg-start align-items-center mb-4">
@@ -55,12 +55,12 @@ const Hero = () => {
                   <FaInstagram />
                 </a>
               </div>
-              
+
               {/* Resume/CV Button */}
-              <Button 
-                variant="primary" 
-                href="./Kelvin Akharamen.pdf" 
-                target="_blank" 
+              <Button
+                variant="primary"
+                href="./Kelvin Akharamen.pdf"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="px-4 py-2 fs-5"
                 download="Kelvin Akharamen.pdf"

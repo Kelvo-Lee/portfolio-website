@@ -1,37 +1,16 @@
 // src/components/CaseStudy.jsx
-
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { Container, Row, Col, Badge, Image } from 'react-bootstrap';
 import { motion } from 'framer-motion';
-
-// Import all your project images
-import projectImage1 from '../assets/project1.PNG';
-import projectImage2 from '../assets/project2.jpeg';
 import projectImage3 from '../assets/project3.JPG';
 import projectImage4 from '../assets/project4.png';
 import projectImage5 from '../assets/project5.png';
 import projectImage6 from '../assets/project6.png';
-import projectImage7 from '../assets/project7.png'; 
-import projectImage8 from '../assets/project8.png'; 
-import projectImage9 from '../assets/project9.png';
+import projectImage7 from '../assets/project7.png';
 
-// The projects array with all nine project details
+
 const projects = [
-  {
-    id: '1',
-    title: "Charity Website",
-    description: "A frontend website built to manage a charity organization",
-    image: projectImage1,
-    tags: ['HTML', 'CSS']
-  },
-  {
-    id: '2',
-    title: "Landing Page For Logistics",
-    description: "Landing page to showcase a logistic website",
-    image: projectImage2,
-    tags: ['HTML', 'CSS']
-  },
   {
     id: '3',
     title: "Fintech App Design",
@@ -51,14 +30,14 @@ const projects = [
     title: "A Real Estate Application",
     description: "A full-stack Real estate platform built to purchase and manage properties.",
     image: projectImage5,
-    tags: ['React', 'Bootstrap', 'Node.JS', 'CSS', 'API', 'MYSQL']
+    tags: ['React', 'Bootstrap', 'Node.JS', 'CSS', 'MYSQL']
   },
   {
     id: '6',
     title: "A Crypto Website",
     description: "A Functional crypto website that showcase Real-time data market, wallet connection, Analytics dashboard and portfolio simulation",
     image: projectImage6,
-    tags: ['React', 'Bootstrap', 'Node.JS', 'CSS', 'API']
+    tags: ['React', 'Bootstrap', 'Node.JS', 'CSS']
   },
   {
     id: '7',
@@ -66,20 +45,6 @@ const projects = [
     description: "A website to empower women accross diverse industries with opportunities for growth and success.",
     image: projectImage7,
     tags: ['React', 'Bootstrap', 'CSS']
-  },
-  {
-    id: '8',
-    title: "A Ministore",
-    description: "A website to purchase phones and accessories.",
-    image: projectImage8,
-    tags: ['Javascript', 'Bootstrap', 'CSS', 'API','Django']
-  },
-  {
-    id: '9',
-    title: "Yummy",
-    description: "A website to order for all types of food from local cuisines to international dishes.",
-    image: projectImage9,
-    tags: ['Javascript', 'Django', 'CSS', 'API', 'Bootstrap']
   }
 ];
 
@@ -96,35 +61,9 @@ const CaseStudy = () => {
     );
   }
 
-  // Define the content for each case study
+  // Content for each case study
   let caseStudyContent;
-  if (project.id === '1') {
-    caseStudyContent = (
-      <>
-        <h3 className="fw-bold mb-3">Project Overview</h3>
-        <p>Built a clean, user-friendly website for a charity to serve as a hub for their mission and campaigns. The goal was to create an accessible, professional site to drive donations and engagement.</p>
-        <h4 className="fw-bold mt-4">The Challenge</h4>
-        <p>The charity's existing online presence was outdated and inefficient. Key issues included poor navigation, slow performance, and a lack of clear calls-to-action, hindering effective communication and fundraising.</p>
-        <h4 className="fw-bold mt-4">My Process & Solution</h4>
-        <p>I redesigned the frontend with a focus on modern, responsive design using HTML and CSS. The process involved analyzing the target audience to create an intuitive user interface with clear navigation and prominent buttons. I also prioritized accessibility to ensure a seamless experience for all users.</p>
-        <h4 className="fw-bold mt-4">The Result & Impact</h4>
-        <p>The new website significantly improved the charity's digital presence. The enhanced user experience resulted in a notable increase in online donations and higher engagement rates. The professional design has strengthened the charity's brand image and encouraged continued visitor support.</p>
-      </>
-    );
-  } else if (project.id === '2') {
-    caseStudyContent = (
-      <>
-        <h3 className="fw-bold mb-3">Project Overview</h3>
-        <p>Built a landing page to showcase a logistics company's services. The goal was to create an impactful, professional site that would effectively generate leads and build trust with potential clients.</p>
-        <h4 className="fw-bold mt-4">The Challenge</h4>
-        <p>The primary challenge was to capture visitor interest quickly and convert it into action. I needed to present complex services in a clear, concise, and visually appealing way to build confidence in the company's brand and encourage client inquiries.</p>
-        <h4 className="fw-bold mt-4">My Process & Solution</h4>
-        <p>I focused on a clean, responsive frontend design using HTML and CSS. I created a single-page layout with a strong visual hierarchy, incorporating clear sections for services, testimonials, and a streamlined contact form to guide users easily.</p>
-        <h4 className="fw-bold mt-4">The Result & Impact</h4>
-        <p>The new landing page provides a clear and professional face for the company. It successfully increased lead generation and improved the user experience, helping to attract high-value clients and reinforce the company's market position.</p>
-      </>
-    );
-  } else if (project.id === '3') {
+  if (project.id === '3') {
     caseStudyContent = (
       <>
         <h3 className="fw-bold mb-3">Project Overview</h3>
@@ -177,45 +116,19 @@ const CaseStudy = () => {
       </>
     );
   } else if (project.id === '7') {
-  caseStudyContent = (
-    <>
-      <h3 className="fw-bold mb-3">Project Overview</h3>
-      <p>I designed and developed a website to empower women across diverse industries. The platform provides a supportive community, valuable resources, and opportunities for networking and career growth, with the goal of fostering a strong, interconnected network of professional women.</p>
-      <h4 className="fw-bold mt-4">The Challenge</h4>
-      <p>The core challenge was to create a digital space that felt both professional and welcoming. I needed to build a secure platform for resource sharing while ensuring an intuitive user experience. The design had to be elegant and inspiring, reflecting the website's mission to uplift and support its members.</p>
-      <h4 className="fw-bold mt-4">My Process & Solution</h4>
-      <p>I used **React** to build a dynamic and responsive front end. The solution included a dedicated resources section, a community forum for members to connect, and a user-friendly dashboard for managing profiles. The platform was designed to be easily scalable, allowing for future expansion with new features and content.</p>
-      <h4 className="fw-bold mt-4">The Result & Impact</h4>
-      <p>The final website provides a powerful tool for empowering women professionally. It has successfully created a digital hub that inspires growth and collaboration. This project demonstrates my ability to build a mission-driven platform from concept to a fully functional and secure website.</p>
-    </>
-  );
-} else if (project.id === '8') {
-  caseStudyContent = (
-    <>
-      <h3 className="fw-bold mb-3">Project Overview</h3>
-      <p>I built an e-commerce website to serve as a mini-store for purchasing phones and accessories. The goal was to create a clean, modern shopping experience with a focus on a straightforward product catalog and a secure, efficient checkout process to drive sales.</p>
-      <h4 className="fw-bold mt-4">The Challenge</h4>
-      <p>The main challenge was simplifying the online shopping journey. I needed to design an intuitive user flow that made it easy for customers to browse products, add items to a cart, and complete a purchase. The website had to be fast and responsive, providing a smooth experience on both desktop and mobile devices.</p>
-      <h4 className="fw-bold mt-4">My Process & Solution</h4>
-      <p>I used **React** to build the user interface and integrated a **RESTful API** for managing product inventory and handling transactions. The solution included a dynamic product display with filters, a persistent shopping cart, and a secure checkout process with form validation to ensure customer data is protected.</p>
-      <h4 className="fw-bold mt-4">The Result & Impact</h4>
-      <p>The mini-store successfully provides a seamless and reliable shopping experience. It showcases my ability to build a full-stack e-commerce solution from scratch, with a focus on user experience, security, and performance. This project demonstrates my skills in creating a functional, sales-driven web application.</p>
-    </>
-  );
-} else if (project.id === '9') {
-  caseStudyContent = (
-    <>
-      <h3 className="fw-bold mb-3">Project Overview</h3>
-      <p>I developed a website to order all types of food, from local cuisines to international dishes. The platform provides users with a simple way to browse menus, customize orders, and manage the delivery process, creating a seamless and convenient dining experience.</p>
-      <h4 className="fw-bold mt-4">The Challenge</h4>
-      <p>The core challenge was to create an intuitive and visually appealing menu system that could handle a wide variety of food options and complex order customizations. I needed to design a user flow that made placing an order feel effortless while providing clear updates on the order status from preparation to delivery.</p>
-      <h4 className="fw-bold mt-4">My Process & Solution</h4>
-      <p>I used **React** for the front end and integrated a **Node.js** or **headless CMS** for managing restaurant data and order processing. The solution included a dynamic menu interface, a customizable order builder, and a real-time order tracking feature to keep users informed. The design was focused on high-quality food visuals and an easy-to-navigate interface.</p>
-      <h4 className="fw-bold mt-4">The Result & Impact</h4>
-      <p>The food ordering website successfully provides a convenient and enjoyable user experience. It demonstrates my ability to build a robust, content-driven application with a focus on user convenience and real-time functionality. The project showcases my skills in front-end design, API integration, and creating intuitive user workflows.</p>
-    </>
-  );
-} else {
+    caseStudyContent = (
+      <>
+        <h3 className="fw-bold mb-3">Project Overview</h3>
+        <p>I designed and developed a website to empower women across diverse industries. The platform provides a supportive community, valuable resources, and opportunities for networking and career growth, with the goal of fostering a strong, interconnected network of professional women.</p>
+        <h4 className="fw-bold mt-4">The Challenge</h4>
+        <p>The core challenge was to create a digital space that felt both professional and welcoming. I needed to build a secure platform for resource sharing while ensuring an intuitive user experience. The design had to be elegant and inspiring, reflecting the website's mission to uplift and support its members.</p>
+        <h4 className="fw-bold mt-4">My Process & Solution</h4>
+        <p>I used **React** to build a dynamic and responsive front end. The solution included a dedicated resources section, a community forum for members to connect, and a user-friendly dashboard for managing profiles. The platform was designed to be easily scalable, allowing for future expansion with new features and content.</p>
+        <h4 className="fw-bold mt-4">The Result & Impact</h4>
+        <p>The final website provides a powerful tool for empowering women professionally. It has successfully created a digital hub that inspires growth and collaboration. This project demonstrates my ability to build a mission-driven platform from concept to a fully functional and secure website.</p>
+      </>
+    );
+  } else {
     caseStudyContent = (
       <>
         <h3 className="fw-bold mb-3">Project Overview</h3>

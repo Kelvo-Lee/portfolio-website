@@ -1,37 +1,15 @@
 // src/components/Projects.jsx
-
 import React from 'react';
 import { Container, Row, Col, Card, Badge, Button } from 'react-bootstrap';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-
-// Import all your project images
-import projectImage1 from '../assets/project1.PNG';
-import projectImage2 from '../assets/project2.jpeg';
 import projectImage3 from '../assets/project3.JPG';
 import projectImage4 from '../assets/project4.png';
 import projectImage5 from '../assets/project5.png';
 import projectImage6 from '../assets/project6.png';
 import projectImage7 from '../assets/project7.png';
-import projectImage8 from '../assets/project8.png';
-import projectImage9 from '../assets/project9.png';
 
-// The projects array with corrected string IDs
 const projects = [
-  {
-    id: '1',
-    title: "Charity Website",
-    description: "A frontend website built to manage a charity organization",
-    image: projectImage1,
-    tags: ['HTML', 'CSS']
-  },
-  {
-    id: '2',
-    title: "Landing Page For Logistic",
-    description: "Landing page to showcase a logistic website",
-    image: projectImage2,
-    tags: ['HTML', 'CSS']
-  },
   {
     id: '3',
     title: "Fintech App Design",
@@ -66,20 +44,6 @@ const projects = [
     description: "A website to empower women accross diverse industries with opportunities for growth and success.",
     image: projectImage7,
     tags: ['React', 'Bootstrap', 'CSS']
-  },
-  {
-    id: '8',
-    title: "A Ministore",
-    description: "A website to purchase phones and accessories.",
-    image: projectImage8,
-    tags: ['Javascript', 'Bootstrap', 'CSS', 'API','Django']
-  },
-  {
-    id: '9',
-    title: "Yummy",
-    description: "A website to order for all types of food from local cuisines to international dishes.",
-    image: projectImage9,
-    tags: ['Javascript', 'Django', 'CSS', 'API', 'Bootstrap']
   }
 ];
 

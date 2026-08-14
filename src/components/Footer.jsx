@@ -1,5 +1,4 @@
 // src/components/Footer.jsx
-
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import { motion } from 'framer-motion';
@@ -18,7 +17,7 @@ const Footer = () => {
       variants={footerVariants}
     >
       <Container fluid className="bg-dark text-light text-center py-4">
-        <p className="mb-0">&copy; {new Date().getFullYear()} Kelvix Technologies. All rights reserved.</p>
+        <p className="mb-0">&copy; {new Date().getFullYear()} Codevin Technologies. All rights reserved.</p>
       </Container>
     </motion.div>
   );

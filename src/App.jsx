@@ -2,21 +2,20 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container } from 'react-bootstrap';
-import { BrowserRouter, Routes, Route } from 'react-router-dom'; // <-- New imports
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import Hero from './components/Hero';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import CaseStudy from './components/CaseStudy'; // <-- We will create this next
+import CaseStudy from './components/CaseStudy';
 
 function App() {
   return (
     <BrowserRouter basename="/portfolio-website">
       <Container fluid className="p-0">
         <Routes>
-          {/* Main Homepage Route */}
           <Route path="/" element={
             <>
               <Hero />
@@ -26,7 +25,6 @@ function App() {
               <Footer />
             </>
           } />
-          {/* Dynamic Route for Each Project Case Study */}
           <Route path="/projects/:id" element={<CaseStudy />} />
         </Routes>
       </Container>
